@@ -26,3 +26,29 @@ C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\refint\Jogos API.dll
 C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.pdb
 C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.genruntimeconfig.cache
 C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\ref\Jogos API.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
