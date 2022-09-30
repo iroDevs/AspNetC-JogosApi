@@ -1,0 +1,28 @@
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\appsettings.Development.json
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\appsettings.json
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.exe
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.deps.json
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.runtimeconfig.json
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.runtimeconfig.dev.json
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Jogos API.pdb
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\dev\LivrosAspNet\Jogos API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.csproj.AssemblyReference.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.AssemblyInfoInputs.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.AssemblyInfo.cs
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.csproj.CoreCompileInputs.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\scopedcss\bundle\Jogos API.styles.css
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\staticwebassets\Jogos API.StaticWebAssets.Manifest.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.RazorTargetAssemblyInfo.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.csproj.CopyComplete
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.dll
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\refint\Jogos API.dll
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.pdb
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\Jogos API.genruntimeconfig.cache
+C:\dev\LivrosAspNet\Jogos API\obj\Debug\net5.0\ref\Jogos API.dll
