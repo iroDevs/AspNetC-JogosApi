@@ -13,8 +13,8 @@ namespace Jogos_API.repositories
 
         Task<Jogo> Create(Jogo jogo);
 
-        Task<Jogo> Update(Jogo jogo);
+        Task<string> Update(Jogo jogo);
 
-        Task<Jogo> Delete(int id);
+        Task<string> Delete(int id);
     }
 }

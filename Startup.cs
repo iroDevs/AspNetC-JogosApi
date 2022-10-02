@@ -1,4 +1,5 @@
 using Jogos_API.Models;
+using Jogos_API.repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,7 +29,8 @@ namespace Jogos_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-          IServiceCollection serviceCollection =  services.AddDbContext<JogoContext>(x => x.UseSqlite("Data source=jogo.db"));
+            services.AddDbContext<JogoContext>(x => x.UseSqlite("Data source=jogo.db"));
+            services.AddScoped<IJogoRepository, JogoRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
