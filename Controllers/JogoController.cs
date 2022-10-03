@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Jogos_API.Controllers
 {
-    [Route("jogo/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class JogoController : ControllerBase
     {
@@ -24,9 +24,16 @@ namespace Jogos_API.Controllers
             return await _jogo.Get();
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Jogo>> GetJogoById(int id)
         {
+            var JogoToGet = await _jogo.Get(id);
+
+            if (JogoToGet == null)
+            {
+                return NotFound();
+            }
+
             return await _jogo.Get(id);
         }
 
@@ -45,7 +52,7 @@ namespace Jogos_API.Controllers
                 return BadRequest(e);
             }
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public async Task<ActionResult> DeleteJogo(int id)
         {
@@ -68,7 +75,7 @@ namespace Jogos_API.Controllers
                 }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<ActionResult> UpdateJogo(int id, [FromBody] Jogo jogo)
         {
             var JogoToUpdate = await _jogo.Get(id);
