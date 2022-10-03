@@ -2,13 +2,14 @@
 using Jogos_API.repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Jogos_API.Controllers
 {
-    public class JogoController
+    [Route("jogo/[controller]")]
+    [ApiController]
+    public class JogoController : ControllerBase
     {
         private readonly IJogoRepository _jogo;
 
@@ -17,77 +18,77 @@ namespace Jogos_API.Controllers
             _jogo = jogo;
         }
         [HttpGet]
-        [Route("/jogo)")]
+   
         public async Task<IEnumerable<Jogo>> GetJogo()
         {
             return await _jogo.Get();
         }
 
-        [HttpGet("jogo/{id}")]
+        [HttpGet]
         public async Task<ActionResult<Jogo>> GetJogoById(int id)
         {
             return await _jogo.Get(id);
         }
 
         [HttpPost]
-        public async Task<ActionResult<string>> CreateJogo([FromBody] Jogo jogo)
+        public async Task<ActionResult> CreateJogo([FromBody] Jogo jogo)
         {
             try
             {
                await _jogo.Create(jogo);
                 
-                return "registro criado com sucesso";
+                return Accepted();
 
 
             }catch(InvalidCastException e)
             {
-                return $"erro ao criar o jogo , erro: {e}";
+                return BadRequest(e);
             }
         }
         [HttpDelete]
 
-        public async Task<ActionResult<string>> DeleteJogo(int id)
+        public async Task<ActionResult> DeleteJogo(int id)
         {
            var JogoToDelete = await _jogo.Get(id);
 
             if (JogoToDelete == null)
             {
-                return "registro de jogo não encontrado";
+                return NotFound();
             }
 
                 try
                 {
                     await _jogo.Delete(JogoToDelete.Id);
-                    return "registro Deletado com sucesso";
+                    return Accepted();
 
                 }
                 catch (InvalidCastException e)
                 {
-                    return $"erro ao Deletar o jogo , erro: {e}";
+                    return BadRequest(e);
                 }
         }
 
         [HttpPut]
-        public async Task<ActionResult<string>> UpdateJogo(int id, [FromBody] Jogo jogo)
+        public async Task<ActionResult> UpdateJogo(int id, [FromBody] Jogo jogo)
         {
             var JogoToUpdate = await _jogo.Get(id);
 
             if (JogoToUpdate == null)
             {
-                return "registro de jogo não encontrado";
+                return NotFound();
             }
 
             try
             {
                 await _jogo.Update(jogo);
 
-                return "registro criado com sucesso";
+                return Accepted();
 
 
             }
             catch (InvalidCastException e)
             {
-                return $"erro ao criar o jogo , erro: {e}";
+                return BadRequest(e);
             }
         }
 
